@@ -8,7 +8,7 @@
 # @vdonato Okay, so I ran some few tests with `st.image()` with an image URL, and I think this issue might have more to do with the backend of `PIL` than streamlit itself. I would've troubleshooted it, but unfortunately I'm not too familiar with the more subtle workings of image processing. 
 
 # Here's what I tried:
-# ```python
+# ```python             
 from PIL import Image
 import streamlit as st
 
@@ -16,5 +16,4 @@ import streamlit as st
 
 # st.image('test.svg')
 st.image('test.svg', width=20)
-
 
